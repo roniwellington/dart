@@ -43,3 +43,40 @@ A diferença entre os modificadores de imutabilidade const e final:
 
     Outro modificador de imutabilidade é o final que tem o mesmo papel de proibir alterações na variável, porém permite que a inicialização da variável ocorra fora da linha de declaração. Em resumo, o const exige que a variável seja inicializada na declaração, e o final permite que essa inicialização ocorra posteriormente.
 
+
+
+Condições com If/Else
+    Quando queremos uma condição no nosso código,podemos usar o if(){} e o else{}. Dentro da estrutura do nosso código, temos 3 partes:if/else () {}.
+
+    o if/else é necessário para inicializar a lógica de comparação.
+    Já o () é onde adicionamos nossa condição, que deve sempre ser um resultado verdadeiro ou falso(booleano).
+
+    Por fim, o {} é onde escrevemos nossas ações que só ocorrerão se a condição tiver sido verdadeira.
+
+Repetições com: For
+    Aprendemos que, em alguns momentos, pe interessante criar repetições dentro do nosso código, e podemos controlar essas repetições usando o for(){}, que pe composto por 3 partes principais:
+        O for é o comando usado para iniciar o loop.
+        O () é onde vamos definir nossas condições, e é dividido em 3 subpartes: inicialização, condição, pós-loop.
+        Onde a inicialização é responsável pela criação da variável condicional inicial (int i = 0)
+        A condição é responsável por comparar a variável inicial com a nossa lógica desejada (i < 10)
+        O pós-loop é a ação que será tomada no final da repetição, normalmente é usada para incrementar a variável inicial (i++)
+
+Repetições com: While
+    Quando precisamos criar repetições, mas não temos certezas das quantidades necessárias, usamos o while(){}, que consiste em 3 partes:
+    while que é o comando para começar a lógica de repetição;
+    ()que é onde vamos colocar a condição booleana;
+    {} local designado para as ações que serão repetidas.
+
+Porém, o while tem um bônus que é poder escolher se a condição será analisada antes ou depois da repetição, usando o comando opcional do{}while() que é composto por 4 partes:
+    Do que é comando para começar a lógica de repetição;
+    {} Local designado para as ações que serão repetidas;
+    while que é o comando para começar a lógica de condição;
+    () que é onde vamos colocar a condição booleana.
+
+
+Adicionar Comentários:
+    Usar comentários é muito importante para manter seu código organizado, além de melhorar o entendimento para qualquer um que deseje estudá-lo no futuro. Aprendemos a usar comentários de linhas simples com // e comentários de linhas múltiplas com /**/. Vimos também um segundo tipo de comentário muito usado para documentação de códigos, pois tem uma cor distinta (verde), nesse caso, usamos /// para linhas simples e /****/ para múltiplas linhas.
+
+Usar a Documentação Oficial:
+    Iniciamos nossa jornada de explorar o Dart usando a documentação oficial disponível no site do Dart. Nosso primeiro contato foi importante para começarmos a perder o medo de usar a documentação. No futuro, ela será nossa melhor amiga para entender conceitos e problemas mais complexos.
+
