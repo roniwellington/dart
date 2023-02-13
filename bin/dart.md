@@ -80,3 +80,22 @@ Adicionar Comentários:
 Usar a Documentação Oficial:
     Iniciamos nossa jornada de explorar o Dart usando a documentação oficial disponível no site do Dart. Nosso primeiro contato foi importante para começarmos a perder o medo de usar a documentação. No futuro, ela será nossa melhor amiga para entender conceitos e problemas mais complexos.
 
+
+
+
+
+DART: ENTENDENDO A ORIENTAÇÃO A OBJETOS
+
+
+Trabalhos Colaborativos:
+    Quando entramos no mundo do desenvolvimento de softwares, eventualmente vamos trabalhar em equipe, e isso significa que devemos saber lidar com diferentes formas de raciocínio lógico e diferentes formas de agir.
+
+
+VSCode:
+    Quando as pessoas trabalham colaborativamente, é comum que cada uma trabalhe em um ambiente diferente também! Neste curso, além do IntelliJ Community, que já usamos anteriormente, conhecemos o Visual Studio Code (ou só VSCode), e vimos que, mesmo sendo ambientes de trabalhos diferentes, podemos executar as mesmas tarefas em ambos se houver uma boa comunicação.
+
+Paradigmas:
+    Vimos que paradigmas são como crenças, visões ou formas de agir em relação a um problema. Existem diversos tipos de paradigmas na programação em o paradigma usado no Dart é o de Orientação a Objetos, que consiste nas ideias de Classes, Parentesco e Objetos
+
+Orientação de Objetos no Dart:
+    No Dart, começamos a explorar os conceitos de objetos e reparamos que não há diferença no modo como havíamos cirado nosso código anteriormente. No entanto, começamos a reparar que o código apenas com objetos simples se torna extremamente difícil de lidar.
