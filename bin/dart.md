@@ -127,3 +127,22 @@ O que é o Construtor:
 
 O que são Métodos:
     Por fim, vimos que os Métodos são como funções dentro de uma classe e determinam os comportamentos que os objetos que serão gerados por essa classe terão
+
+
+O que é Herança:
+    Quanto mais complexo fica nosso código, mais classes precisamos criar, e fica muito evidente que muitos parâmetros e métodos se repetem entre classes. Para facilitar a criação de código e melhorar a performance da linguagem dart, temos a opção de adicionar herança às nossas classes! A herança nada mais é que a possibilidade de herdar dados e ações de outras classes já criadas, afim de facilitar o entendimento e organização estrutural do nosso código.
+
+Como utilizar Herança no Dart:
+     A herança no dart é feita de uma maneira simples: primeiro, devemos criar a classe que será herdada, em seguida, criamos a classe que vai receber a herança. Depois, usamos a palavra extends para associar as duas classes.Por fim, utilizamos o super para pegar os dados herdados e utilizá-los na nossa Classe com herança.
+
+Métodos compartilhados:
+    Uma vez que temos múltiplas classes com herança, começamos a notar que os métodos de cada classe se relacionam da mesma forma. Classes qeu possuem algum nível de parentesco vertical(Mãe -> Filha) podem utilizar os métodos herdados.Porém, o inverso não é recíproco(Filha -> Mãe), nem mesmo o relacionamento horizontal(Irmã - Irmã)permite a utiliação de métodos entre si.
+
+
+
+    O que são Classes Abstratas:
+        As Classes abstratas(conhecidas em outra linguagens como Interface)
+        são como contratos pré-definidos. Elas são muito usadas para dar um caminho definido para todas as classes que a implementam. Ao criar uma classe abastrata, fazemos os seus métodos sem nenhuma ação, pois dessa forma, as ações são definidas apenas por aqueles que implementam a classe abstrata criada
+
+    Polimorfismo
+        Agora, já sabemos extender uma classe(Mão/Filha) e já sabemos implementar uma classe abstrata(Contrato), e começamos a notar que nem sempre os métodos herdados podem ser úteis a todo momento.Em alguns casos, precisamos alterar esses métodos sem comprometer outras classes, e para isso usamos a Sobrescrita com o comando @override. O Polimorfismo nada mais é que a habilidade das nossas classes de alterar um método recebido por herança.
