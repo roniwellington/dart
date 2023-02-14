@@ -198,3 +198,21 @@ O que são Iterables:
 
 O que são Maps:
     Por fim, estudos os Maps, um tipo de coleção extremante útil na  em aplicações reais como quando acessamos bancos de dados e trocamos informações com APIs. Nessa estrutura, sempre teremos um par contendo uma chave e um valor, onde essa chave dá acesso á leitura e modificação desse valor. É por esse motivo que, em algumas linguagens, ele recebe o nome de "Dicionario".
+
+
+
+Qual a diferença entre os termos Var e Dynamic:
+    Aprendemos que dynamic é um termo que indica quando um objeto pode alterar de tipagem em tempo de execução, ou seja, quando a aplicação já estiver rodando. Isso é uma característica um tanto quanto interessante e até perigosa, logo. é necessário saber trabalhar com ela para não cometermos erros que podem quebrar nosso código.
+
+Qual a diferença entre um dado Estático e um Dinâmico:
+    Static é um termo que indica quando um objeto deve manter seu valor independente da instância que atua sobre ela. Uma propriedade estática faz parte de uma classe, ou seja, não pode ser criada/instanciada por si só.
+
+O que são Linguagens Estática e Dinamicamente Tipadas:
+    Vimos que algumas linguagens de programação são dinâmicas, o que significa que podemos alterar facilmente  o tipo de um objeto sem problemas, mas isso faz com que o compilador/interpretador não note quando um possível erro pode ocorrer. Um exemplo de linguagem dinâmica é...Linguagens estáticas, ou seja, que geralmente não permitem a alteração de tipos de objetos, têm a vantagem de verificarem se o código apresenta algum erro antes de compilar/rodar o projeto. O Dart é um exemplo de linguagem estática!
+
+O que é Encapsulamento:
+    É notável que existirão situações, tanto no mundo real, quanto na programação, em que precisamos gerenciar acessos, isto é, precisamos organizar quais pessoas podem ver ou alterar cada arquivo, ou trecho de código. É para isso que serve o conceito de encapsulamento e os conceitos de “público” e “privado” na programação.
+
+
+O que são Getter e Setters:
+    Vimos que tornamos uma propriedade privada usando o underline antes do nome dela, por exemplo: _nome. E, uma vez que essa propriedade se torna privada, usuários da classe (e de instâncias da classe) não podem acessá-la e modificá-la diretamente. Para fazer isso, precisamos criar métodos especiais. Os getters (em português, “pegadores”) vão conter o termo get e são usados para leitura do valor, já os setters (em português, ”definidores”) vão conter o termo set e são usados para alteração do valor.
