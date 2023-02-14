@@ -146,3 +146,55 @@ Métodos compartilhados:
 
     Polimorfismo
         Agora, já sabemos extender uma classe(Mão/Filha) e já sabemos implementar uma classe abstrata(Contrato), e começamos a notar que nem sempre os métodos herdados podem ser úteis a todo momento.Em alguns casos, precisamos alterar esses métodos sem comprometer outras classes, e para isso usamos a Sobrescrita com o comando @override. O Polimorfismo nada mais é que a habilidade das nossas classes de alterar um método recebido por herança.
+
+
+
+
+Sintaxe e Semântica
+
+Sintaxe na programação:
+    Conjunto de normas que coordenam e  estruturam a construção das variáveis, funções, classes etc.
+
+    Essas normas ditam:
+        Como a lógica deve ser escrita;
+        Em que ordem;
+        E quais suas palavras chaves;
+
+
+Temos sintaxe para tudo no Dart
+    Variáveis;
+    Condicionais;
+    Loops;
+    Funções;
+    Classes;
+
+    Coleções;
+    Erros;
+
+
+
+O que é Sintaxe:
+    Vimos que toda linguagem, seja ela natural ou de programação, possui uma sintaxe, final, sintaxe é um conjunto de regras que definem quais são os termos dessa linguagem, como eles se relacionam e em que ordem são esperados.
+
+O que é Sintaxe no Dart:
+    Notamos que todas as estruturas que usamos no Dart até agora seguem uma sintaxe, e que, quando essa sintaxe não é rspeitada, vários erros seão gerados, já que o Dart não compreenderá o que estamos tentando construir.
+
+O que são Enums:
+    Aprendemos que Enums (Enumeradores) são tipos os dados cujo os valores são exatamente um conjunto finito de identificadores que escolhemos no momento em que estamos construindo o Enum. Vimos que eles podem ser usados para retornar nossas comparações mais legíveis e eficientes.
+
+O que são Switchs:
+    Por fim, conhecemos a Estrutura Condicional Switch-Case-Default, que, assim como a if-Else, serve para direcionarmos nosso código a depender do resultado de uma operação booleana = no caso do Switch, sempre uma comparação feita usando como vase um elemento definido no começo da estrutura.
+
+
+
+O que são Sets:
+    Vimos que, em Dart, Set ~sao coleções que herdam de Iterable,
+    assim como as Lists e, para fins práticos, podem ser considerados um caso especial de List onde todas as entradas são únicas, ou seja, não contêm entradas repetidas. Essa estrutura é útil quando queremos armazenar valores únicos em uma variável sem considerar a ordem das entradas.
+
+
+O que são Iterables:
+    Vimos também que Interable é uma coleção de valores ou elementos que podem ser acessados sequencialmente. Vimos que essa classe é abstrada, ou sejam não podemos instanciar objetos do tipo Iterable, mas essa classe é usada como base para as outra estruturas de coleção:
+    List e Sets.
+
+O que são Maps:
+    Por fim, estudos os Maps, um tipo de coleção extremante útil na  em aplicações reais como quando acessamos bancos de dados e trocamos informações com APIs. Nessa estrutura, sempre teremos um par contendo uma chave e um valor, onde essa chave dá acesso á leitura e modificação desse valor. É por esse motivo que, em algumas linguagens, ele recebe o nome de "Dicionario".
