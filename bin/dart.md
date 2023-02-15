@@ -216,3 +216,28 @@ O que é Encapsulamento:
 
 O que são Getter e Setters:
     Vimos que tornamos uma propriedade privada usando o underline antes do nome dela, por exemplo: _nome. E, uma vez que essa propriedade se torna privada, usuários da classe (e de instâncias da classe) não podem acessá-la e modificá-la diretamente. Para fazer isso, precisamos criar métodos especiais. Os getters (em português, “pegadores”) vão conter o termo get e são usados para leitura do valor, já os setters (em português, ”definidores”) vão conter o termo set e são usados para alteração do valor.
+
+
+Qual a diferença entre Erros e Exceções:
+    Aprendemos que nem sempre nossas aplicações seguirão pelo caminho perfeito, e que erros e situações excepcionais podem acontecer. Agora conseguimos diferenciar esses dois conceitos:
+        "Erros" são os problemas que não temos total controle e não fazem parte do fluxo esperado no nosso modelo de negócios, quando estamos programando podemos até antecipar que erros vão acontecer, mas não é nossa função tratá-los em tempo de execução.
+
+        "Exceções" são as situações excepcionais que fogem do "caminho feliz" previsto no fluxo do nosso modelo de negócios. Essas situações sim, nós devemos antever, tratar e resolver da melhor forma possível para nossa pessoa usuária.
+
+O que é a Pilha de Execução:
+    Vimos também que um conceito importante para compreensão das exceções é  o da Pilha de Execução, que é uma forma de representar como o Sistema Operacional prioriza a leitura do código que nós escrevemos na nossa aplicação.
+
+O que é o Depurador e o Modo de Depuração:
+    Aprendemos, por fim, que nos nossos Ambientes de Desenvolvimento (IDEs)não temos apenas a opção de "Rodar" o nosso código, temos também a opção de "Depurar" (Debug). A opção Debug roda nosso código em Modo de Depuração, abrindo para gente uma nova aba chamada "Depurador". Nela temos a visão de várias novas ferramentas que permitem uma análise linha a linha do nosso código, coisa que não seia possível no modo de "Rodar" que estamod acostumados.
+
+Como são mostradas Exceções no Depurador:
+    Aprendemos que , diferentemente do modo "Run"(Rodar), quando uma exceção é gerada no modo "Debug"(Depurar)a execução é parada na linha de código que gerou essa exceção e, usando o Depurador podemos analisar toda a Pilha de Execução gerada até essa linha e quais os valores das variáveis nesse momento.
+
+Lidando com Exceções com o uso do Try-On:
+    Aprendemos também que usando a estrutura try-on podemos evitar que a aplicação acabe quando uma exceção for gerada (com o try, do inglês "tente"), e assim podemos dar um tratamento adequado para cada situação excepcional (com o on, do inglês "em" o que pode ser entendido como "na situação de").
+
+Capturando exceções com o Catch:
+    Logo na sequência, Aprendemos que podemos capturar um objeto de exceção através do catch e assim ter acesso aos membros(propriedades e métodos) dessa exceção para tornar nossa coleta de informações e tratamento mais completas.
+
+Outras ferramentas para lidar com exceções:
+    Aprendemos que podemos capturar além do objeto Exceção, um objeto StakeTrace que é útil para nos dar a informação sobre o Rastro da Pilha que a Exceção gerou.
