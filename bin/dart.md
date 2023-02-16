@@ -254,3 +254,14 @@ Como criar e usar propriedades e métodos para nossasExceções Personalizadas:
 
 O que é e como usar o Assert:
     Por fim, aprendemos que podemos usar o comando assert para fazer verificações apenas em ambiente de desenvolvimento que tenha o comando de terminal --enable-asserts ativado. Essa ferramenta é útil para fazer testes com o AssertionError, que para a execução do nosso programa, mas só apenas em tempo de desenvolvimento, não afetando o código que chegará à pessoa usuária.
+
+
+
+O que é um nulo:
+    Aprendemos que no Dart, o Nulo é um tipo não instanciável e representa a ausência de valor. Aprendemos também que no passado, o nul era um subtipo de todos os tipos, mas desde a implementação do Null Safety na linguagem, o Null passou a ser um tipo a parte de todos, podendo agora uma variável ou propriedade receber ou apenas valores não nulos, ou tanto valores nulos quantos não nulos.
+
+O problema que Null Safety resolve:
+    Aprendemos que Null Safety resolve o problema das Referências Nulas, ou seja, de tentarmos acessar membros de variáveis que estão com valores nulos, evitando assim erros em tempo de execução.
+
+Como lidar com nulos de uma forma segura:
+    Por fim, aprendemos que existem algumas formas seguras de se lidar com nulos e a principal delas é testando se a variável contém ou não um valor nulo. Esse teste com if-else  garante, em tempo de execução, que a variável não sera nula. Também podemos usar a chamada segura, ou Safe Call, utilizando a ? quando queremos tentar acessar um membro de uma classe, e não uma variável local.
