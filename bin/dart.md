@@ -241,3 +241,16 @@ Capturando exceções com o Catch:
 
 Outras ferramentas para lidar com exceções:
     Aprendemos que podemos capturar além do objeto Exceção, um objeto StakeTrace que é útil para nos dar a informação sobre o Rastro da Pilha que a Exceção gerou.
+
+
+Como lançar uma Exceção:
+    Aprendemos que com a palavra-chave throw podemos lançar uma exceção, ou seja, parar a execução do código naquela sub-rotina (função) e enviar um objeto-exceção para quem estiver abaixo na Pilha de Execução. Se essa exceção lançada passar por todos os quadros da pilha sem ser tratado, ela terminará a execução do código com uma saída de insucesso. E abordamos que o Dart permite enviarmos qualquer objeto no throw, mas que códigos de qualidade, principalmente em ambiente de produção, lançam apenas objetos de tipos que implementam Exception ou Error.
+
+Como criar uma exceção personalizada:
+    Aprendemos que o processo de criar uma exceção personalizada consiste basicamente em criar uma classe que implementa a classe abstrata Exception, e que, uma vez criada, podemos lançar nossas exceções com o throw e capturá-las com a estrutura try-on-cath-finally.
+
+Como criar e usar propriedades e métodos para nossasExceções Personalizadas:
+    Também aprendemos que, como uma classe, podemos criar membros (propriedades e métodos) para uma Exceção, que estarão disponíveis para acesso ao capturarmos nossa Exceção com o catch.
+
+O que é e como usar o Assert:
+    Por fim, aprendemos que podemos usar o comando assert para fazer verificações apenas em ambiente de desenvolvimento que tenha o comando de terminal --enable-asserts ativado. Essa ferramenta é útil para fazer testes com o AssertionError, que para a execução do nosso programa, mas só apenas em tempo de desenvolvimento, não afetando o código que chegará à pessoa usuária.
